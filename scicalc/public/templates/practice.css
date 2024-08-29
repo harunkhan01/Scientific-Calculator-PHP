@@ -1,0 +1,30 @@
+body {
+	background: white;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	height: 30px;
+}
+
+#numbers {
+	color: black;
+	height: 80px;
+	width: 500px;
+	padding-top: 50px;
+}
+
+.inpBody {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	overflow-y: scroll;
+}
+
+#submitval {
+	color: blue;
+}
